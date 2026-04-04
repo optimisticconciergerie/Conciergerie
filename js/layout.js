@@ -3,7 +3,7 @@
    ============================================ */
 
 function getActivePage() {
-  return window.location.pathname.split('/').pop() || 'index.html';
+  return window.location.pathname.split('/').pop() || '';
 }
 
 function renderHeader() {
