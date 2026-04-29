@@ -25,10 +25,10 @@ function renderHeader() {
 
   return `<header>
     <a href="index.html" class="logo">
-      <img src="images/Abeille jaune.png" alt="Abeille Optimistic Conciergerie" class="logo-icon">
+      <img src="images/Abeille jaune sans texte avec clef.png" alt="Optimistic Conciergerie" class="logo-icon">
       <div class="logo-text">
-        Optimistic Conciergerie
-        <span>Gestion locative premium</span>
+        <span class="logo-optimistic">Optimistic</span>
+        <span class="logo-conciergerie">Conciergerie</span>
       </div>
     </a>
     <button class="menu-toggle" aria-label="Ouvrir le menu" onclick="this.closest('header').classList.toggle('nav-open')">
@@ -49,10 +49,13 @@ function renderFooter() {
       <div class="footer-grid">
         <div>
           <a href="index.html" class="logo" style="margin-bottom:0.75rem;">
-            <img src="images/Abeille jaune.png" alt="Abeille Optimistic Conciergerie" class="logo-icon">
-            <div class="logo-text">Optimistic Conciergerie<span>Gestion locative premium</span></div>
+            <img src="images/logo fond blanc OC clef 2.png" alt="Abeille Optimistic Conciergerie" class="logo-icon">
+            <div class="logo-text">
+              <span class="logo-optimistic">Optimistic</span>
+              <span class="logo-conciergerie">Conciergerie</span>
+            </div>
           </a>
-          <p class="footer-desc">Votre partenaire de confiance pour la gestion de location courte durée en Île-de-France.</p>
+          <p class="footer-desc">Votre partenaire de confiance pour la gestion de location courte durée.</p>
         </div>
         <div>
           <h4>Contact</h4>

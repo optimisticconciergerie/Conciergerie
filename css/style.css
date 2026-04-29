@@ -2,7 +2,7 @@
    OPTIMISTIC CONCIERGERIE — Feuille de style
    ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600;700&family=Bubblegum+Sans&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
 
 /* ── Variables ── */
 :root {
@@ -64,13 +64,11 @@ header {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-family: 'Noto Serif', serif;
-  font-size: 1.15rem;
-  color: var(--bleu-nuit);
-  font-weight: 700;
 }
 .logo-icon { height: 70px; width: auto; display: block; }
-.logo-text span { display: block; font-family: 'Manrope', sans-serif; font-size: 0.65rem; font-weight: 400; letter-spacing: 0.15em; color: var(--jaune-fonce); text-transform: uppercase; }
+.logo-text { display: flex; flex-direction: column; line-height: 1.15; }
+.logo-optimistic { font-family: 'Bubblegum Sans', sans-serif; font-size: 1.8rem; color: var(--jaune-fonce); letter-spacing: 0.01em; }
+.logo-conciergerie { font-family: 'Manrope', sans-serif; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.2em; color: var(--bleu-nuit); text-transform: uppercase; }
 
 nav ul {
   list-style: none;
@@ -266,7 +264,7 @@ footer {
   padding: 3rem 2rem 1.5rem;
 }
 footer .logo { color: var(--blanc); }
-footer .logo-text span { color: var(--jaune-fonce); }
+footer .logo-conciergerie { color: var(--blanc); opacity: 0.8; }
 footer .logo-icon { height: 36px; }
 .footer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-bottom: 2rem; max-width: 700px; margin-left: auto; margin-right: auto; }
 footer h4 { font-family: 'Noto Serif', serif; color: var(--jaune-fonce); margin-bottom: 1rem; font-size: 1.05rem; }
@@ -473,7 +471,7 @@ header.nav-open .menu-toggle span:nth-child(3) { transform: translateY(-9px) rot
 .ix-hero-span { 
   color: var(--jaune-fonce);
   font-style: italic;
-  font-size: clamp(2.2rem, 4.5vw, 3.6rem);
+  font-size: clamp(2.2rem, 4.5vw, 3.4rem);
  }
 .ix-hero-desc {
   font-size: 1.15rem;
