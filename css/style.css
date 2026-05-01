@@ -368,6 +368,9 @@ footer ul a:hover { color: var(--jaune-fonce); }
 
 /* ── Footer ── */
 .footer-desc { font-size: 0.9rem; max-width: 280px; color: rgba(255,255,255,0.9); }
+.footer-social { display: flex; gap: 1rem; margin-top: 1rem; }
+.footer-social-link { color: rgba(255,255,255,0.6); transition: color 0.2s; }
+.footer-social-link:hover { color: var(--jaune-fonce); }
 
 /* ── Hamburger ── */
 .menu-toggle {
@@ -445,6 +448,40 @@ header.nav-open .menu-toggle span:nth-child(3) { transform: translateY(-9px) rot
   .grid-tarifs { grid-template-columns: 1fr; }
   .tarifs-box-list { grid-template-columns: 1fr; gap: 0.5rem; }
 }
+
+/* ── Plateformes partenaires ── */
+.section-platforms {
+  background: var(--blanc);
+  padding: 1.75rem 2rem;
+  border-top: 1px solid var(--gris-doux);
+  border-bottom: 1px solid var(--gris-doux);
+}
+.platforms-label {
+  text-align: center;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #8a9ab5;
+  margin-bottom: 1.25rem;
+}
+.platforms-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+.platform-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: -0.01em;
+}
+.platform-badge svg { width: 40px; height: 40px; }
+.platform-airbnb { color: #FF5A5F; }
+.platform-booking { color: #003580; }
 
 /* ══════════════════════════════════════════
    INDEX — Styles spécifiques page d'accueil
