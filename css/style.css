@@ -372,6 +372,15 @@ footer ul a:hover { color: var(--jaune-fonce); }
 .footer-social-link { color: rgba(255,255,255,0.6); transition: color 0.2s; }
 .footer-social-link:hover { color: var(--jaune-fonce); }
 
+/* ── Tableaux RGPD ── */
+.rgpd-table-wrap { margin-bottom: 1.5rem; border: 1px solid var(--gris-doux); border-radius: 0.5rem; overflow: hidden; }
+.rgpd-table-title { background: var(--gris-doux); padding: 0.75rem 1rem; font-weight: 700; font-size: 0.9rem; color: var(--bleu-nuit); }
+.rgpd-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.rgpd-table th { background: var(--ivoire); color: var(--bleu-nuit); padding: 0.6rem 1rem; text-align: left; font-weight: 600; border-bottom: 1px solid var(--gris-doux); }
+.rgpd-table td { padding: 0.75rem 1rem; vertical-align: top; border-bottom: 1px solid var(--gris-doux); color: #3a4a60; }
+.rgpd-table tr:last-child td { border-bottom: none; }
+@media (max-width: 800px) { .rgpd-table { display: block; overflow-x: auto; } }
+
 /* ── Hamburger ── */
 .menu-toggle {
   display: none;
