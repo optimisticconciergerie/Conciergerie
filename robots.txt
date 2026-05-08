@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tginguene.github.io/conciergerie/sitemap.xml
+Sitemap: https://optimistic-conciergerie.fr/sitemap.xml
