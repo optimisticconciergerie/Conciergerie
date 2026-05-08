@@ -702,7 +702,10 @@ header.nav-open .menu-toggle span:nth-child(3) { transform: translateY(-9px) rot
 @media (max-width: 1000px) {
   .sv-hero-grid { grid-template-columns: 1fr; }
   .sv-hero-img-wrap { display: none; }
+  .sv-hero-text { text-align: center; }
+  .sv-hero-text h1 { font-size: clamp(1.5rem, 5vw, 2.2rem); }
+  .sv-hero-desc { max-width: 100%; margin: 0 auto; }
 }
 @media (max-width: 800px) {
-  .sv-hero { padding: 3rem 1.5rem; }
+  .sv-hero { padding: 2.5rem 1.25rem; }
 }
