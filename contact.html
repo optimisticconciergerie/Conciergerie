@@ -38,36 +38,35 @@
 
         <!-- Infos contact -->
         <div>
-          <h2 style="margin-bottom:1.5rem;">On vous rappelle</h2>
-          <p style="margin-bottom:2rem;">Remplissez le formulaire ou appelez-nous directement. Nous étudions chaque demande personnellement et vous répondons rapidement.</p>
+          <h2 class="contact-section-title">On vous rappelle</h2>
+          <p class="contact-intro">Remplissez le formulaire ou appelez-nous directement. Nous étudions chaque demande personnellement et vous répondons rapidement.</p>
 
           <div class="contact-info-list">
             <div class="contact-info-item">
               <div class="circle-icon">📞</div>
               <div>
                 <div class="contact-label">Téléphone</div>
-                <a href="tel:0666011234" style="font-size:1.1rem; font-weight:600; color:var(--bleu-nuit);">06.66.01.xx.xx</a>
+                <a href="tel:0666017832" class="contact-phone-link">06.66.01.xx.xx</a>
               </div>
             </div>
             <div class="contact-info-item">
               <div class="circle-icon">✉️</div>
               <div>
                 <div class="contact-label">Email</div>
-                <a href="mailto:conciergerie.optimistic@gmail.com" style="font-size:0.95rem; font-weight:500; color:var(--bleu-nuit); word-break:break-all;">conciergerie.optimistic@gmail.com</a>
+                <a href="mailto:conciergerie.optimistic@gmail.com" class="contact-email-link">conciergerie.optimistic@gmail.com</a>
               </div>
             </div>
-            
           </div>
 
           <div class="contact-response-box">
             <div class="contact-response-title">⏱ Réponse sous 24h</div>
-            <p style="font-size:0.9rem; margin:0;">Nous étudions chaque demande avec attention et nous engageons à vous répondre dans les 24 heures ouvrées.</p>
+            <p class="contact-note">Nous étudions chaque demande avec attention et nous engageons à vous répondre dans les 24 heures ouvrées.</p>
           </div>
         </div>
 
         <!-- Formulaire -->
         <div class="contact-form-card">
-          <h3 style="margin-bottom:1.75rem; font-size:1.2rem;">Demande de contact</h3>
+          <h3 class="contact-form-title">Demande de contact</h3>
 
           <form id="contactForm" action="https://formspree.io/f/xpqykbro" method="POST">
             <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
@@ -89,7 +88,7 @@
               </div>
               <div class="form-group">
                 <label for="telephone">Téléphone *</label>
-                <input type="tel" id="telephone" name="telephone" placeholder="06 xx xx xx xx" required />
+                <input type="tel" id="telephone" name="telephone" placeholder="06 66 01 78 32" required />
               </div>
             </div>
 
@@ -98,21 +97,21 @@
               <textarea id="message" name="message" placeholder="Décrivez votre bien, vos attentes, vos questions..."></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary" style="width:100%; font-size:1rem; padding:1rem;">
+            <button type="submit" class="btn btn-primary btn-full">
               Envoyer ma demande
             </button>
 
-            <p style="font-size:0.78rem; color:#999; margin-top:1rem; text-align:center;">
-              Les seuls destinataires de ces données sont l’équipe d’Optimistic Conciergerie et son sous-traitant en charge de l'envoie de la demande (Formspree). La fourniture de ces données(*) est obligatoire. Pour plus d’information sur le traitement de vos données et l’exercice de vos droits, reportez-vous à notre  politique de confidentialité.
+            <p class="form-privacy">
+              Les seuls destinataires de ces données sont l'équipe d'Optimistic Conciergerie et son sous-traitant en charge de l'envoie de la demande (Formspree). La fourniture de ces données(*) est obligatoire. Pour plus d'information sur le traitement de vos données et l'exercice de vos droits, reportez-vous à notre politique de confidentialité.
             </p>
-            <p id="formError" style="display:none; color:#c0392b; text-align:center; margin-top:1rem; font-size:0.9rem;">
+            <p id="formError" class="form-error">
               Une erreur est survenue. Veuillez réessayer ou nous contacter par email.
             </p>
           </form>
 
-          <div id="confirmationMsg" style="display:none; text-align:center; padding:2rem 0;">
-            <div style="font-size:3rem; margin-bottom:1rem;">✅</div>
-            <h3 style="color:var(--bleu-nuit); margin-bottom:0.5rem;">Message envoyé !</h3>
+          <div id="confirmationMsg" class="form-confirm">
+            <div class="form-confirm-icon">✅</div>
+            <h3 class="form-confirm-title">Message envoyé !</h3>
             <p>Merci pour votre demande. Nous vous répondrons sous 24h.</p>
           </div>
         </div>
