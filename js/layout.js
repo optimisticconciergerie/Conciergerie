@@ -68,7 +68,7 @@ function renderFooter() {
         <div>
           <h4>Contact</h4>
           <ul>
-            <li>📞 <a href="tel:0666011234">06.66.01.xx.xx</a></li>
+            <li>📞 <a href="tel:0666011234">06.66.01.78.32</a></li>
             <li style="display:flex; align-items:baseline; gap:0.4rem;">✉️ <a href="mailto:conciergerie.optimistic@gmail.com">conciergerie.optimistic@gmail.com</a></li>
             <li>📍 Île-de-France</li>
           </ul>
